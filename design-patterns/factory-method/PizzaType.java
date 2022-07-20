@@ -1,0 +1,3 @@
+public enum PizzaType {
+    SPICY_CHEESE_PIZZA, CHEESY_CHICKEN_PIZZA
+}

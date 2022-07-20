@@ -18,7 +18,7 @@ public class SinglyLinkedList {
 		return (head == null);
 	}
  
-	public void insert(Object item) {
+	public void add(Object item) {
 		//insert a node at the start of list
 		Node node = new Node(item);
 		node.next = head;
@@ -39,7 +39,6 @@ public class SinglyLinkedList {
 		head = previous;
 		return this;
 	}
- 
 	
 	public String toString() {
 		// print the List
